@@ -1,0 +1,188 @@
+header {
+  margin-top: 21px;
+  font-family: Roboto;
+}
+
+.home-content { 
+  display: flex;
+  margin-top: 5%;
+}
+
+.top-logo {
+  width: 10%;
+}
+
+.home-content-context {
+  width: 60%;
+}
+
+.about-content {
+  font-size: 20px;
+  width: 55%;
+}
+
+.home-content-context h1 {
+  font-family: Roboto Slab;
+  font-size: 80px;
+  width: 80%;
+  padding-right: 10px;
+}
+
+.home-icons-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  width: 30%;
+  align-items: center;
+}
+
+.icons img {
+  width: 15%;
+}
+
+.icons p {
+  font-size: 20px;
+  margin: 0 0 0 5%;
+  height: 65%;
+}
+
+.home-logo-container {
+  width: 40%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.home-logo {
+  width: 80%;
+}
+
+.home-content-logo {
+  width: 100%;
+}
+
+.home-footer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.home-footer-content {
+  background-color: #1e4681;
+  width: 35%;
+  font-size: 25px;
+  color: #fff;
+  font-family: Roboto Slab;
+  padding: 3% 3% 0 3%;
+}
+
+.footer-author {
+  font-family: Roboto;
+  font-size: 20px;
+  float: right;
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+
+  .icons p,
+  .about-content,
+  .footer-author {
+    font-size: 12px;
+  }
+
+  .home-content-context h1 {
+    font-size: 46px;
+    width: 60%;
+  }
+
+  .home-footer-content {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+ 
+  .homepage-section{
+    margin-left: -5%;
+  }
+
+  .home-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-content-context {
+    width: 100%;
+  }
+  header {
+    margin-top: 21px;
+    font-family: Roboto;
+    padding-left: 10%;
+  }
+
+  
+
+  .home-icons-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* width: 50%; */
+    max-width: 250px;
+  }
+
+  .icons p,
+  .material-icons {
+    font-size: 10px;
+    line-height: 2%;
+
+  }
+
+  .footer-author{
+    font-size: 10px;
+  }
+
+  .icons img {
+    height: 50%;
+  }
+
+  .home-content-context h1 {
+    font-size: 37px;
+    width: 87%;
+    max-width: 300px;
+  }
+
+  .about-content {
+    font-size: 10px;
+    width: 70%;
+    max-width: 250px;
+  }
+
+  .home-logo-container {
+    width: 85%;
+    margin: 0;
+    padding-right: 10%;
+    display: flex;
+    justify-content: right;
+  }
+
+  .home-logo {
+    width: 45%;
+    max-width: 250px;
+  }
+
+  .home-footer-container {
+    justify-content: left;
+    background-color: darkkhaki;
+  }
+
+  .home-footer-content {
+    background-color: #1e4681;
+    max-width: 400px;
+    min-width: 200px;
+    font-size: 11px;
+  }
+}

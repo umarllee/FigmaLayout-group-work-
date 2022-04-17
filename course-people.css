@@ -1,0 +1,86 @@
+.course-people {
+    background: #EFEFEF;
+    padding: 2% 5%;
+}
+.course-people h3 {
+    font-family: Roboto Slab;
+    font-weight: 700; 
+}
+.course-people .people-card {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 5% 0;
+}
+.course-people .people-card .people-card-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.people-card-contact .people-image {
+    width: 30%;
+    margin: 0;
+}
+.people-card-contact .people-image img {
+    width: 92%;
+}
+.people-card-contact .people-name-contact p {
+    margin: 0;
+}
+.people-name-contact .people-name {
+    margin-bottom: 0;
+}
+.people-name-contact .people-name p {
+    font-weight: 700;
+}
+.facebook {
+    width: 20%;
+}
+.facebook img {
+    width: 80%;
+}
+@media (min-width: 1280px) {
+    .course-people h3 {
+        font-size: 55px;
+    }
+    .course-people .people-card .people-card-text p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .people-name-contact .people-name p {
+        font-size: 30px;
+        line-height: 30.42px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1279px) {
+    .course-people h3 {
+        font-size: 32px;
+    }
+    .course-people .people-card .people-card-text p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .people-name-contact .people-name p {
+        font-size: 17px;
+        line-height: 17.24px;
+    }
+}
+@media (max-width: 991px) {
+    .course-people h3 {
+        font-size: 26px;
+    }
+    .course-people .people-card .people-card-text p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .people-name-contact .people-name p {
+        font-size: 14px;
+        /* line-height: 0px; */
+    }
+    .course-people .people-card {
+        width: 80%;
+    }
+}

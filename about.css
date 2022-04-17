@@ -1,0 +1,236 @@
+.incourse-container{
+    font-family: Roboto ;
+}
+.incourse-container { 
+    height: 100%; 
+    padding: 0%; 
+} 
+ 
+.incourse-container h1 { 
+    font-size: 55px; 
+} 
+ 
+.incourse-context-container { 
+    height: 80%; 
+    display: block; 
+} 
+ 
+.incourse-context-top { 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    height: 60%; 
+} 
+ 
+.incourse-context { 
+    font-size: 24px; 
+    font-weight: 400; 
+    line-height: 36px; 
+    width: 55%; 
+    height: 100%; 
+} 
+ 
+.course-container-photo { 
+    width: 33%; 
+    transform: translate(30%, 0); 
+    height: 80%; 
+    margin-top: 5%; 
+    z-index: 0; 
+    background: url(images/incourse.png); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+ 
+} 
+ 
+ 
+.incourse-context-bottom { 
+    height: 35%; 
+    padding-top: 3%; 
+    display: flex; 
+    margin-top: 5%; 
+ 
+} 
+ 
+.coursephoto { 
+    background: url(images/incourse2.png); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    transform: translate(10%, 0); 
+    width: 25%; 
+    height: 90%; 
+} 
+ 
+.incourse-con { 
+    width: 25%; 
+    height: 90%; 
+ 
+ 
+} 
+ 
+.bottom-right { 
+    width: 50%; 
+    height: 70%; 
+    display: flex; 
+    justify-content: space-between; 
+    margin-left: 5%; 
+    margin-top: 3%; 
+} 
+ 
+.incourse-con h2 { 
+    font-size: 25px; 
+} 
+ 
+.incourse-con p { 
+    font-size: 18px; 
+} 
+ 
+@media (min-width:992px) and (max-width:1279px) { 
+ 
+    body { 
+        height: 700px; 
+    } 
+ 
+    .incourse-container{
+        margin-left: -10%;
+    }
+    .incourse-container { 
+ 
+        padding: 10% 10% 0 10%; 
+ 
+    } 
+ 
+    .incourse-context-bottom { 
+        height: 30%; 
+        padding-top: 3%; 
+ 
+    } 
+ 
+    .incourse-container h1 { 
+        font-size: 32px; 
+    } 
+ 
+    .incourse-context { 
+        font-size: 14px; 
+        width: 60%; 
+        height: 80%; 
+        line-height: 21px; 
+    } 
+ 
+    .course-container-photo { 
+        width: 25%; 
+        height: 80%; 
+        margin-top: 7%; 
+        transform: translate(30%, 0); 
+        z-index: 0; 
+        background: url(images/incourse.png); 
+        background-size: contain; 
+        background-repeat: no-repeat; 
+ 
+    } 
+ 
+    .coursephoto { 
+        width: 20%; 
+        height: 90%; 
+        background: url(images/incourse2.png); 
+        background-size: contain; 
+        background-repeat: no-repeat; 
+        transform: translate(10%, 0); 
+    } 
+ 
+    .incourse-con { 
+        margin-left: 10%; 
+    } 
+ 
+    .incourse-con h2 { 
+        font-size: 18px; 
+    } 
+ 
+    .incourse-con p { 
+        font-size: 15px; 
+    } 
+ 
+    .bottom-right { 
+        width: 60%; 
+        height: 50%; 
+        margin-top: 5%; 
+        display: flex; 
+ 
+        justify-content: space-between; 
+    } 
+ 
+ 
+} 
+ 
+ 
+@media (max-width:991px) { 
+ 
+    body { 
+        height: 850px; 
+    } 
+ 
+ 
+    .incourse-container { 
+        height: 100%; 
+        padding: 5% 5% 5% 0; 
+    } 
+ 
+    .incourse-container h1 { 
+        font-size: 26px; 
+    } 
+ 
+    .incourse-context { 
+        font-size: 12px; 
+        width: 100%; 
+        height: 75%; 
+        line-height: 21px; 
+ 
+    }
+    .incourse-context-top { 
+        flex-direction: column; 
+        height: 90%; 
+
+    } 
+ 
+    .bottom-right { 
+        width: 90%; 
+        height: 80%; 
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-between;
+        margin-left: -0.1%; 
+    } 
+
+    .incourse-con { 
+        flex-wrap: wrap;
+        width: 40%;
+        margin: 3% 3% 3% 0;
+         
+    } 
+ 
+    .incourse-con p { 
+        /* width: 100%;  */
+        max-width: 100px;
+        line-height: 14px;
+    } 
+ 
+ 
+    .course-container-photo { 
+        width: 50%; 
+        height: 75%; 
+        transform: translate(60%, 0); 
+ 
+    } 
+ 
+    .coursephoto { 
+        display: none; 
+    } 
+ 
+    .incourse-con h2 { 
+        font-size: 12px; 
+    } 
+ 
+    .incourse-con p { 
+        font-size: 10px; 
+    } 
+ 
+}

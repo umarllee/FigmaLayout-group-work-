@@ -1,0 +1,76 @@
+.class-format{
+    width: 95%;
+}
+.all-text{
+    display: flex;
+    width: 100%;
+    margin-top: -20px;
+}
+.all-text div {
+    height: 100%; 
+    width: 33%;
+}
+.text-class{
+    margin-right: 5%;
+}
+.class-format h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    height: 70px;
+}
+.all-text .text-class h3{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    color: #1E4681;
+}
+.all-text .text-class p{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 130%;
+}
+@media (min-width:992px) and (max-width:1279px) {
+    .all-text{
+        width: 100%;
+    }
+    .all-text .text-class{
+        margin-left: 0;
+        margin-right: 15%;
+        width: 20%;
+    }
+    .all-text .text-class p{
+        font-size: 11px;
+    }
+    .all-text .text-class h3{
+        font-size: 15px;
+        height: 39px;
+    }
+    .class-format h2{
+        font-size: 32px;
+    }
+}
+@media (max-width:991px) {
+    .all-text {
+        display: block;
+        flex-wrap: wrap;
+        margin-right: 10%;
+        width: 100%;
+    }
+    .all-text .text-class{
+        width: 60%;
+        margin-bottom: 5%;
+    }
+    .class-format h2{
+        font-size: 26px;
+    }
+    .text-class p{
+        width: 200px;
+        font-size: 10px !important;
+    }
+    .text-class h3{
+        font-size: 12px !important;
+    } 
+}
